@@ -9,13 +9,9 @@ export default function Footer() {
         <a href="https://github.com/Mpp216" target="/">
           Maria Preto Pereira
         </a>
-        and is
+        and is open source
         <a href="https://github.com/Mpp216/my-app" target="/">
           on GitHub
-        </a>
-        and
-        <a href="https://meteo-tempo-app.netlify.app/" target="/">
-          hosted on Netlify
         </a>
       </p>
     </div>
