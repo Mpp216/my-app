@@ -19,7 +19,7 @@ export default function Weather() {
           <div className="col-9">
             <input
               type="search"
-              placeholder="Type a city.."
+              placeholder="Enter a city.."
               className="form-control"
               autoComplete="off"
             />
@@ -49,7 +49,7 @@ export default function Weather() {
               className="float-left"
             />
             <div className="float-left">
-              <strong>{weatherData.temperature}</strong>
+              <strong className="temperature">{weatherData.temperature}</strong>
               <span className="units">
                 <a href="/">°C</a> | <a href="/">°F</a>
               </span>
