@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="New York"/>
         <Footer />
       </div>
     </div>
